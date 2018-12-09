@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Web typography</h1>
+				</section>
+				<section>
+					<section><h2>Selecting a font</h2></section>
+					<section><h2>Keep the number of fonts used at a minimum</h2></section>
+					<section>
+						<img src="img/too_many_fonts.jpeg">
+					</section>
+					<section>
+						<img src="img/categories.jpg">
+					</section>
+					<section>
+						<img src="img/serif-example.png">
+					</section>
+					<section>
+						<img src="img/sans-serif-example.jpg">
+					</section>
+					<section>
+						<img src="img/script.jpg">
+					</section>
+					<section>
+						<img src="img/decorative.jpg">
+					</section>
+					<section>
+						<img src="img/mono-space-example.jpg">
+					</section>
+				</section>
+				<section>
+					<section><h2>Combining fonts</h2></section>
+					<section><h2>Try to avoid mixing typefaces</h2></section>
+					<section>
+						<img src="img/mixingfonts.jpg">
+					</section>
+					<section><h2>Play with the styles</h2></section>
+					<section>
+						<img src="img/styles.jpg">
+					</section>
+					<section><h2>Mix from the same family</h2></section>
+					<section>
+						<img src="img/same-family.jpg">
+					</section>
+				</section>
+				<section>
+					<section><h2>Pairing typefaces</h2></section>
+					<section><h2>By simularity</h2></section>
+					<section>
+						<img src="img/by-simularity.jpg">
+					</section>
+					<section><h2>By contrast</h2></section>
+					<section>
+						<img src="img/by-contrast.jpg">
+					</section>
+				</section>
+				<section>
+					<section><h2>Font size</h2></section>
+					<section><h2>Start with the body text, change the font size to 15–25px</h2></section>
+					<section>
+						<img src="img/size.png">
+					</section>
+					<section><h2>Scale your headings</h2></section>
+					<section>
+						<img src="img/headers.png">
+					</section>
+					<section><h2>Change the primary heading to 180–200% of the body text</h2> If you have a secondary heading, modify it to 130–150% of the body text.</section>
+				</section>
+				<section>
+						<section><h2>Line-spacing</h2></section>
+						<section>
+							<img src="img/definition.jpg">
+						</section>
+						<section>
+							<img src="img/line-spacing.jpg">
+						</section>
+				</section>
+				<section>
+					<section><h2>Line-length</h2></section>
+					<section>
+						<img src="img/line-length.jpg">
+					</section>
+				</section>
+				<section>
+					<section><h2>Proper apostrophes and dashes</h2></section>
+					<section>
+						<p>'Do you like cats?'</p>
+						<p>"Do you like cats?"</p>
+						<p>‘Do you like cats?’</p>
+						<p>“Do you like cats?”</p>
+					</section>
+					<section>
+						<img src="img/quotes_code.png">
+					</section>
+					<section><h2>Hyphens vs dashes</h2></section>
+					<section>
+						<h2>Hyphen</h2>
+						<b>dog-friendly</b>
+						<b>10-minute</b>
+						<p>Combine separate words into one</p>
+					</section>
+					<section>
+						<h2>En dash</h2>
+						<b>1067–2018</b>
+						<b>Elvis Presley–style dance moves</b>
+						<b>Bad: Elvis-Presley-style dance</b>
+						<b>Tokyo-New York flight </b>
+						<p>Show a range of values</p>
+						<p>Connection of two different words</p>
+						<p>Super hyphen</p>
+					</section>
+					<section>
+						<h2>Em dash</h2>
+						<b>I opened the door and there she stood—my long lost sister.</b>
+						<p>A break in a sentence</p>
+					</section>
+				</section>
+				<section><h2>End</h2></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
